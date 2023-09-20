@@ -26,7 +26,6 @@ let result = "";
 
 while (count < 6) {
     count++;
-
     visited_cities[currentCity] = true;
     result += currentCity;
     result += " -> ";
